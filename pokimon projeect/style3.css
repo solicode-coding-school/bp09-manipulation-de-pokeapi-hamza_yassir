@@ -1,0 +1,124 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #c6ebeb; 
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #cb342c; 
+    color: #000000; 
+    border-bottom: 3px solid #000000;
+}
+
+.pokemon-title {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex: 1; 
+    gap: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+
+}
+
+.image-container img {
+    width: 200px;
+    height: auto;
+    border: 3px solid #000000; 
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.table-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.pokemon-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pokemon-table thead {
+    
+    color: #b5190a;
+}
+
+.pokemon-table th, .pokemon-table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.pokemon-table tbody tr:nth-child(even) {
+    background-color: #fafaf8;
+}
+
+
+
+#image {
+    text-align: center;
+  }
+  
+  #image img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #dddddd;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    font-family: fantasy;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  

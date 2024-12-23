@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #c6ebeb;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #cb342c; 
+    color: #000000; 
+    border-bottom: 3px solid #000000;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-family: "Press Start 2P", serif;
+}
+
+.header p {
+    font-size: 1.2rem;
+    font-family: "Press Start 2P", serif;
+}
+
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: calc(100vh - 120px); 
+}
+
+.pokemon-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); 
+    gap: 15px;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+
+.pokemon-list .btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #af4c4c;
+    background-image: url(download.jpg);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition:  0.3s;
+    width: 150px;
+    font-family: "Press Start 2P", serif;
+   
+    
+}
+
+.pokemon-list .btn:hover {
+    width: 200px;
+    height: 50px;
+    color: rgb(247, 247, 86);
+}
+
+
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  
+  .btn:hover {
+    background-color: #e0e0e0;
+  }
+  

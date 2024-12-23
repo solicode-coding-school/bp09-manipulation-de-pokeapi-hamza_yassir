@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #c6ebeb; 
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #cb342c; 
+    color: #000000; 
+    border-bottom: 3px solid #000000;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-family: "Press Start 2P", serif;
+}
+
+.header p {
+    font-size: 1.2rem;
+    font-family: "Press Start 2P", serif;
+}
+
+.type-name {
+    font-family: "Press Start 2P", serif;
+    color: #d6ec0f; 
+}
+
+
+.main-content {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: calc(100vh - 160px); 
+    
+}
+
+.pokemon-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    gap: 15px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Button Styling */
+.pokemon-list .btn {
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    background-color: #2a75bb; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: capitalize; 
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.pokemon-list .btn:hover {
+    background-color: #ffcb05; 
+    color: #2a75bb;
+    transform: scale(1.05); 
+}
+
+
+/* Styles for the second page */
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .pokemon-item {
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 3px solid #000000;
+  }
+  
+  .pokemon-item img {
+    width: 50px;
+    height: 50px;
+    border-bottom: 3px solid #000000;
+  }
+  
+  .pokemon-item p {
+    margin-top: 5px;
+    font-family: fantasy;
+  }
+  
